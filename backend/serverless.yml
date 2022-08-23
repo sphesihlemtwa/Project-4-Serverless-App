@@ -24,9 +24,7 @@ provider:
   environment:
     PROJECT_NAME: udagram
     TODOS_TABLE: udagram-${self:provider.stage}
-    #TODOS_CREATED_AT_INDEX: CreatedAtIndex
     S3_BUCKET_NAME: udagramsphesihlem-${self:provider.stage}
-    #SIGNED_URL_EXPIRATION: 300
 
 
 custom:
