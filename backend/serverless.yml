@@ -14,7 +14,6 @@ provider:
   runtime: nodejs14.x
   stage: ${opt:stage, 'dev'}
   region: ${opt:region, 'us-east-2'}
-  #lambdaHashingVersion: 20201221
 
   tracing:
     lambda: true
